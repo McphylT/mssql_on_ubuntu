@@ -16,7 +16,6 @@ sudo /opt/mssql/bin/mssql-conf setup
 curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg
 ```
 
-curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg
 
 ### If you receive a warning about the public key not being available, you can use the following command instead: 
 ```bash
